@@ -1,4 +1,4 @@
 <?php 
-				require 'model.php';
-				
-				require 'vueAccueil.php';
+	require 'model.php';
+	$posts=getPosts();	
+	require 'vueAccueil.php';
